@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Pokémon</title>
+    <link rel="stylesheet" href="fansite.css">
+
+    <script src="https://kit.fontawesome.com/f460dffe13.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <header>
+        <img src="logo2.jpg.crdownload" alt="">
+        <nav>
+        <ol>
+          <li><a href="file:///home/jc/Bureau/fansite/index.html#L'univers%20de%20Pok%C3%A9mon">Accueil</a></li>
+          <li><a href="file:///home/jc/Bureau/fansite/cartes%20%C3%A0%20jouer%20pok%C3%A9mon.html">Cartes à jouer Pokémon</a></li>
+          <li><a href="file:///home/jc/Bureau/fansite/pokemon_go.html">Pokémon Go</a></li>
+          <li><a href="file:///home/jc/Bureau/fansite/contact.html">Contacts</a></li>
+        </ol>
+        </nav>
+    </header>
+    <main class="contact">
+        <div class="contactez-nous">
+        <h1>Contactez-nous</h1>
+        <p class="phrase">Un problème, une question, envie de nous envoyer un message d’amour ? N’hésitez pas à utiliser ce formulaire pour prendre contact avec nous !</p>
+        <form action="/page-traitement-donnees" method="post">
+        <div>
+        <label for="nom">Votre nom</label>
+        <input type="text" id="nom" name="nom" placeholder="..." required>
+        </div>
+        <div>
+        <label for="email">Votre e-mail</label>
+        <input type="email" id="email" name="email" placeholder="...@mail.com" required>
+        </div>  
+        <div>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+        <option value="probleme-compte">Problème avec mon compte</option>
+        <option value="question-produit">Question à propos d’un produit</option>
+        <option value="suivi-commande">Suivi de ma commande</option>
+        <option value="autre">Autre...</option>
+        </select>
+        </div>
+        <div>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+        </div>
+        <div>
+        <button type="submit">Envoyer mon message</button>
+        </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <img src="footer_pokemon.png">
+        <div class="fin2">
+          <ol>
+            <li><a href="file:///home/jc/Bureau/fansite/index.html#L'univers%20de%20Pok%C3%A9mon">Accueil</a></li>
+            <li><a href="file:///home/jc/Bureau/fansite/cartes%20%C3%A0%20jouer%20pok%C3%A9mon.html">Cartes à jouer Pokémon</a></li>
+            <li><a href="file:///home/jc/Bureau/fansite/pokemon_go.html">Pokémon Go</a></li>
+            <li><a href="file:///home/jc/Bureau/fansite/contact.html">Contacts</a></li>
+          </ol>
+        </div>
+      </footer>
+</body>
+</html>
